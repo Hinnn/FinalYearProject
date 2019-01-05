@@ -1,0 +1,10 @@
+{
+  "message": "Login Successfully!",
+  "data": {
+    "_id": "5c17f8ace7179a2e270a5d85",
+    "adminID": 130928,
+    "name": "Yvette",
+    "email": "Yvette@gmail.com",
+    "password": "123456"
+  }
+}

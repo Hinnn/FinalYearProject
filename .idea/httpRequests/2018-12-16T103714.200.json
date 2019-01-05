@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "5c156ea6e7179a2e27096a46",
+    "customerID": 1000202,
+    "paymenttype": "Visa",
+    "date": 20181029,
+    "amount": 1,
+    "roomNum": "102"
+  },
+  {
+    "_id": "5c162ad4984ace22f9805895",
+    "customerID": 1000200,
+    "paymenttype": "Master",
+    "date": 20181229,
+    "amount": 1,
+    "roomNum": "102",
+    "__v": 0
+  }
+]

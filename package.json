@@ -1,0 +1,30 @@
+{
+  "name": "hotelbooking",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "NODE_ENV=test mocha test/routes/customers-test.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.1.8",
+    "mongoose": "^5.3.3",
+    "morgan": "~1.9.0",
+    "sinon": "^7.1.0",
+    "sinon-mongoose": "^2.2.1",
+    "vue-tables-2": "^1.4.70"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^3.5.3"
+  }
+}

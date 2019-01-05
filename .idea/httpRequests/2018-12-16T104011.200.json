@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "5c156e79e7179a2e27096a3f",
+    "customerID": 10000920,
+    "name": "Yvette",
+    "email": "Yvette@wit.ie",
+    "password": "21323"
+  },
+  {
+    "_id": "5c162b852d5e3b2353fdc532",
+    "customerID": 19970000,
+    "name": "Shaw",
+    "email": "Shaw@gmail.com",
+    "password": "shaw123",
+    "__v": 0
+  }
+]

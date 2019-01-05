@@ -1,0 +1,481 @@
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-12-17T090548.200.json
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-12-17T090310.404.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-12-17T090235.404.html
+
+###
+
+GET http://localhost:3000/rooms/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-12-17T090216.200.json
+
+###
+
+PUT http://localhost:3000/rooms/101
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/101/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/101/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/rooms/101/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085409.500.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085401.500.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085351.500.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085232.500.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085218.500.html
+
+###
+
+PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+###
+
+GET http://localhost:3000/rooms/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T085110.200.json
+
+###
+
+PUT http://localhost:3000/rooms/101/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+###
+
+PUT http://localhost:3000/rooms/101/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+###
+
+GET http://localhost:3000/rooms
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T084950.200.json
+
+###
+
+GET http://localhost:3000/rooms
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T084842.200.json
+
+###
+
+GET http://localhost:3000/rooms
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T084835.200.json
+
+###
+
+POST http://localhost:3000/admin/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvee@gmail.com","password":"123456"}
+
+<> 2018-12-17T073623.200.json
+
+###
+
+POST http://localhost:3000/admin/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvette@gmail.com","password":"3456"}
+
+<> 2018-12-17T073612.200.json
+
+###
+
+POST http://localhost:3000/admin/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvette@gmail.com","password":"123456"}
+
+<> 2018-12-17T073555.200.json
+
+###
+
+POST http://localhost:3000/admin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvette@gmail.com","password":"123456"}
+
+<> 2018-12-17T073528.404.html
+
+###
+
+POST http://localhost3000/admin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email":"Yvette@gmail.com","password":"123456"}
+
+###
+
+POST http://localhost:3000/customers/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email": "Shaw@gmail.com", "password": "shaw123"}
+
+<> 2018-12-16T104334.200.json
+
+###
+
+POST http://localhost:3000/customers/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email": "Shaw@gmail.com", "password": "shaw123"}
+
+###
+
+POST http://localhost:3000/customers/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"email": "Shaw@gmail.com", "password": "shaw123"}
+
+###
+
+POST http://localhost:3000/customers/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "email": "Shaw@gmail.com", "password": "shaw123"}
+
+###
+
+GET http://localhost:3000/customers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
+
+<> 2018-12-16T104011.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
+
+<> 2018-12-16T104005.200.json
+
+###
+
+POST http://localhost:3000/customers/signup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
+
+<> 2018-12-16T103923.404.html
+
+###
+
+GET http://localhost:3000/customers
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103754.200.json
+
+###
+
+GET http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103748.200.json
+
+###
+
+POST http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103745.200.json
+
+###
+
+GET http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103739.200.json
+
+###
+
+GET http://localhost:3000/bookings/1000200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103736.200.json
+
+###
+
+DELETE http://localhost:3000/bookings/1000200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103733.200.json
+
+###
+
+GET http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103714.200.json
+
+###
+
+POST http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+
+<> 2018-12-16T103708.200.json
+
+###
+
+POST http://localhost:3000/bookings/1000202
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"
+
+<> 2018-12-16T103642.400.html
+
+###
+
+GET http://localhost:3000/bookings/1000202
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-12-16T103553.200.json
+
+###
+
+GET http://localhost:3000/bookings/1000202
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-16T103421.200.json
+
+###
+
+GET http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-16T103411.200.json
+
+###
+
+GET http://localhost:3030/bookings
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3031/bookings
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3000/bookings
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-12-09T032002.200.json
+
+###
+
