@@ -49,7 +49,7 @@ let db = mongoose.connection;
                     console.log('  ');
             });
             try {
-                db.collection("bookingsdb").insertMany(booking);
+                db.collection("bookings").insertMany(booking);
                 console.log('Booking insert successfully.');
             } catch (e) {
                 print(e);

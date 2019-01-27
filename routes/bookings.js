@@ -3,11 +3,6 @@ let Booking = require('../models/bookings');
 let express = require('express');
 let router = express.Router();
 
-//let uriUtil = require('mongodb-uri');
-
-//let mongodbUri ='mongodb://YueWang:bookings999@ds135179.mlab.com:35179/bookings';
-//let mongodbUri ='mongodb://YueWang:bookings999@ds131373.mlab.com:31373/bookingsdb';
-//let mongodbUri ='mongodb://YueWang:donations999@ds161112.mlab.com:61112/heroku_mpgt8g57';
 let mongodbUri ='mongodb://YueWang:donations999@ds149744.mlab.com:49744/heroku_l26pm7pk';
 mongoose.connect(mongodbUri);
 
@@ -22,7 +17,6 @@ db.on('error', function (err) {
 db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ] ');
 });
-
 
 router.findAll = (req, res) => {
     // Return a JSON representation of our list

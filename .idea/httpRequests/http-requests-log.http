@@ -1,315 +1,11 @@
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-12-17T090548.200.json
+{"customerID":"12322000","name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
 
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-12-17T090310.404.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-12-17T090235.404.html
-
-###
-
-GET http://localhost:3000/rooms/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-<> 2018-12-17T090216.200.json
-
-###
-
-PUT http://localhost:3000/rooms/101
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/101/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/101/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-###
-
-PUT http://localhost:3000/rooms/101/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085409.500.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085401.500.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085351.500.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085232.500.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085218.500.html
-
-###
-
-PUT http://localhost:3000/rooms/5c180be1e7179a2e270a70d2/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-###
-
-GET http://localhost:3000/rooms/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T085110.200.json
-
-###
-
-PUT http://localhost:3000/rooms/101/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-###
-
-PUT http://localhost:3000/rooms/101/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-###
-
-GET http://localhost:3000/rooms
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T084950.200.json
-
-###
-
-GET http://localhost:3000/rooms
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T084842.200.json
-
-###
-
-GET http://localhost:3000/rooms
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T084835.200.json
-
-###
-
-POST http://localhost:3000/admin/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvee@gmail.com","password":"123456"}
-
-<> 2018-12-17T073623.200.json
-
-###
-
-POST http://localhost:3000/admin/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvette@gmail.com","password":"3456"}
-
-<> 2018-12-17T073612.200.json
-
-###
-
-POST http://localhost:3000/admin/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvette@gmail.com","password":"123456"}
-
-<> 2018-12-17T073555.200.json
-
-###
-
-POST http://localhost:3000/admin
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvette@gmail.com","password":"123456"}
-
-<> 2018-12-17T073528.404.html
-
-###
-
-POST http://localhost3000/admin
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email":"Yvette@gmail.com","password":"123456"}
-
-###
-
-POST http://localhost:3000/customers/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email": "Shaw@gmail.com", "password": "shaw123"}
-
-<> 2018-12-16T104334.200.json
-
-###
-
-POST http://localhost:3000/customers/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email": "Shaw@gmail.com", "password": "shaw123"}
-
-###
-
-POST http://localhost:3000/customers/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"email": "Shaw@gmail.com", "password": "shaw123"}
-
-###
-
-POST http://localhost:3000/customers/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "email": "Shaw@gmail.com", "password": "shaw123"}
-
-###
-
-GET http://localhost:3000/customers
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
-
-<> 2018-12-16T104011.200.json
+<> 2019-01-26T102227.200.json
 
 ###
 
@@ -318,20 +14,229 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
+{"customerID":"12322000","name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
 
-<> 2018-12-16T104005.200.json
+<> 2019-01-26T102206.200.json
 
 ###
 
-POST http://localhost:3000/customers/signup
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 19970000,  "name": "Shaw",  "email": "Shaw@gmail.com", "password": "shaw123"}
+{"customerID":"12322000","name":"Shao","email":"772012459@qq.com","password":"12345678","password2":"12345678"}
 
-<> 2018-12-16T103923.404.html
+<> 2019-01-26T102148.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID":"1231222000","name":"Shao","email":"772012459@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101927.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID":"1231222","name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101637.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101607.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101550.500.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101504.500.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T101411.500.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Shao","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T100424.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": "009980121","name":"Yvette","email":"772012459@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T122619.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": "009980121","name":"Yvette","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T122547.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": "10000121","name":"Yue","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T122403.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": "10000121","name":"Yue","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T122234.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"customerID": "10000121","name":"Yue","email":"1095933649@qq.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T122200.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"shaw","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T121806-1.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"shaw","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T121806.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"shaw","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T121334.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"shaw","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T121143.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"shaw","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T120958.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"WangYue","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T120908.200.json
+
+###
+
+GET http://localhost:3000/customers/1095933649@qq.com
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"WangYue","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
+
+<> 2019-01-26T120839.200.json
 
 ###
 
@@ -340,142 +245,288 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"WangYue","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
 
-<> 2018-12-16T103754.200.json
+<> 2019-01-26T120824.200.json
 
 ###
 
-GET http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"WangYue","email":"yue1095933649@gmail.com","password":"12345678","password2":"12345678"}
 
-<> 2018-12-16T103748.200.json
+<> 2019-01-26T120433.200.json
 
 ###
 
-POST http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"WangYue","email":"yue1095933649@gmail.com","password":"wangyue","password2":"wangyue"}
 
-<> 2018-12-16T103745.200.json
+<> 2019-01-26T120327.200.json
 
 ###
 
-GET http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"Wang","email":"1095933649@qq.com","password":"wangyue","password2":"wangyue"}
 
-<> 2018-12-16T103739.200.json
+<> 2019-01-26T120109.200.json
 
 ###
 
-GET http://localhost:3000/bookings/1000200
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
-
-<> 2018-12-16T103736.200.json
+{"name":"Wang","email":"1095933649@qq.com","password":"wangyue","password2":"wangyue"}
 
 ###
 
-DELETE http://localhost:3000/bookings/1000200
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"Wang","email":"1095933649@qq.com","password":"wangyue","password2":"wangyue"}
 
-<> 2018-12-16T103733.200.json
+<> 2019-01-26T115946.200.json
 
 ###
 
-GET http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
+{"name":"yue", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
 
-<> 2018-12-16T103714.200.json
+<> 2019-01-25T072405.200.json
 
 ###
 
-POST http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"}
-
-<> 2018-12-16T103708.200.json
+{"name":"yue", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
 
 ###
 
-POST http://localhost:3000/bookings/1000202
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-"customerID": 1000200, "paymenttype": "Master",  "date": 20181229,  "amount": 1, "roomNum": "102"
+{"name":"yue", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
 
-<> 2018-12-16T103642.400.html
+<> 2019-01-25T072207.200.json
 
 ###
 
-GET http://localhost:3000/bookings/1000202
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-<> 2018-12-16T103553.200.json
+{"name":"yue", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T072130.200.json
 
 ###
 
-GET http://localhost:3000/bookings/1000202
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2018-12-16T103421.200.json
+{"name":"yue", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071814.200.json
 
 ###
 
-GET http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2018-12-16T103411.200.json
+{"name":"yue", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071700.200.json
 
 ###
 
-GET http://localhost:3030/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071635.200.json
 
 ###
 
-GET http://localhost:3031/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
 
 ###
 
-GET http://localhost:3000/bookings
+POST http://localhost:3000/customers/signUp
 Accept: */*
 Cache-Control: no-cache
+Content-Type: application/json
 
-<> 2018-12-09T032002.200.json
+{"name":"yyy", "email":"772012459@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071623.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071305.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T071130.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T070638.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T070430.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T054707.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T054458.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+<> 2019-01-25T052906.200.json
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
+
+###
+
+POST http://localhost:3000/customers/signUp
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"yyy", "email":"1095933649@qq.com","password":"123456wy","password2":"123456wy"}
 
 ###
 

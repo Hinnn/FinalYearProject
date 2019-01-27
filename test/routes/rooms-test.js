@@ -39,7 +39,7 @@ describe('Rooms', () => {
                 console.log('  ');
         });
         try {
-            db.collection("roomsdb").insertMany(room);
+            db.collection("rooms").insertMany(room);
             console.log('Rooms insert successfully.');
         } catch (e) {
             print(e);

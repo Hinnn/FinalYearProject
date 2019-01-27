@@ -1,16 +1,8 @@
-/*const customers = [
-    {customerID: 100000000,name : "Yvette",email : "Y1234@qq.com", password : 123456,num : 1, date : 20081022},
-    {customerID: 100000001,name :"Shaw", email : "HIA@gmail.com", password : 12345678, num : 1, date : 20181116},
-    {customerID: 100000002,name :"Cathy", email : "Cathy123@163.com", password :123456, num :1, date :20081116}
-];
-
-module.exports = customers;*/
-
 let mongoose = require('mongoose');
-
+const jwt = require("jsonwebtoken");
 let CustomerSchema = new mongoose.Schema({
         customerID: {
-            type: Number,
+            type: String,
             required: true,
             unique: true
         },
@@ -27,10 +19,22 @@ let CustomerSchema = new mongoose.Schema({
         password: {
             type: String,
             required: true
-        }
+        },
+        password2: {
+            type: String,
+            required: true
+        },
+        phoneNum:String,
+        DateOfBirth: Number,
+        Gender: String,
+        register_date: Date,
 
     },
     { collection: 'customers' });
 
+CustomersSchema.methods.generateAuthToken = function(){
+    let token = jwt.sign({_id: this._id}, 'customerJwtKey');
+    return token;
+}
 
 module.exports = mongoose.model('Customer', CustomerSchema);

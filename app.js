@@ -63,11 +63,10 @@ app.post('/customers/login', customers.login);
 
 app.get('/customers', customers.findAll);
 
-app.get('/customers/:customerID', customers.findOne);
-app.put('/customers/:customerID', customers.incrementAmount);
-//app.post('/customers',customers.addCustomer);
+app.get('/customers/:email', customers.findOne);
+app.put('/customers/:customerID', customers.EditInfo);
 
-app.delete('/customers/:customerID', customers.deleteCustomer);
+app.delete('/customers/:email', customers.deleteCustomer);
 app.post('/admin/:login', admin.login);
 
 // catch 404 and forward to error handler
